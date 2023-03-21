@@ -48,7 +48,7 @@
 
 .search {
     border: 0px;
-    background-color: silver;
+    background-color: #f3f4f6;
     border-radius: 5px;
     width: 334px;
     outline: none;
@@ -85,7 +85,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 100px;
 }
 
 .rating {
@@ -99,7 +98,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 680px;
+    transform: translate(780px);
 }
 
 .save {
@@ -125,9 +124,99 @@
 .decript {
     display: flex;
     flex-direction: row;
+    
 }
 
 .deRight {
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
+}
+.desIcon
+{
+    display: flex;
+    flex-direction: row;
+}
+.desIconleft
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.desIconright
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 20px;
+}
+.icon
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.deLeft
+{
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    border: 1px #f7f7f7 solid;
+    margin-top: 40px;
+    border-radius: 5px;
+    transform: translate(45px, 0px);
+}
+.dolar
+{
+    color: #00bdd6;
+    padding-left: 250px;
+    font-size: 200%;
+}
+.attribute
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#select
+{
+    width: 271px;
+    height: 33px;
+    margin: 0 20px 0 20px;
+    background-color: #f3f4f6;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+}
+.totalBill
+{
+    display: flex;
+    flex-direction: row;
+    gap: 205px;
+    margin: 28px 20px 0 20px;
+}
+.total
+{
+    color: #e0e2e5;
+}
+.buy
+{
+    margin: 15px 20px 0 20px;
+    border: 0px;
+    outline: none;
+    background-color: #00bdd6;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.AddtCart
+{
+    margin: 13px 20px 20px 20px;
+    border: 1px #00bdd6 solid;
+    color: #00bdd6;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
 }
