@@ -1,0 +1,133 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000%;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 10px;
+    border-bottom: 1px silver solid;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.button {
+    border: 0px;
+    background-color: #ffff;
+    padding-top: 5px;
+}
+
+.button:hover {
+    color: cyan;
+    border-bottom: 2px cyan solid;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 260px;
+    height: 35px;
+    width: 475px;
+}
+
+.search {
+    border: 0px;
+    background-color: silver;
+    border-radius: 5px;
+    width: 334px;
+    outline: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+
+.ProductButton {
+    border: 0px;
+    color: grey;
+    background-color: white;
+}
+
+.ProductButton:hover {
+    color: black;
+}
+
+.centerBodyTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.rateDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.saveNshare {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 680px;
+}
+
+.save {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 45px;
+    gap: 5px;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.product2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.decript {
+    display: flex;
+    flex-direction: row;
+}
+
+.deRight {
+    display: flex;
+    flex-direction: column;
+}
