@@ -15,8 +15,8 @@
     flex-direction: row;
     gap: 40px;
     margin-top: 10px;
-    border-bottom: 1px silver solid;
-    padding-bottom: 10px;
+    border-bottom: 1px #f3f3f4 solid;
+     padding-bottom: 10px;
 }
 
 .buttons {
@@ -37,7 +37,7 @@
 
 .button:hover {
     color: cyan;
-    border-bottom: 2px cyan solid;
+    border-bottom: 3px cyan solid;
 }
 
 .profile {
