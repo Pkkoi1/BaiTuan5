@@ -24,12 +24,15 @@
     flex-direction: row;
     justify-content: space-between;
     width: 460px;
+    
 }
 
 .button {
     border: 0px;
     background-color: #ffff;
     padding-top: 5px;
+    position: relative;
+    
 }
 
 .button:hover {
@@ -81,7 +84,7 @@
     flex-direction: column;
 }
 
-.rateDetail {
+.rateStar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,18 +127,21 @@
 .decript {
     display: flex;
     flex-direction: row;
-    
+    padding-bottom: 50px;
+    border-bottom: 1px #F6F7F8 solid;
 }
 
 .deRight {
     display: flex;
     flex-direction: column;
     margin-right: 50px;
+    width: 777px;
 }
 .desIcon
 {
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
 }
 .desIconleft
 {
@@ -165,7 +171,7 @@
     border: 1px #f7f7f7 solid;
     margin-top: 40px;
     border-radius: 5px;
-    transform: translate(45px, 0px);
+
 }
 .dolar
 {
@@ -219,4 +225,51 @@
     padding: 10px;
     border-radius: 5px;
     outline: none;
+}
+.Reviews
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+.reviewrating
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.ratingDetail
+{
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+    padding-bottom: 50px;
+    border-bottom: 1px #F6F7F8 solid;
+}
+.detailCmt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Comments
+{
+    display: flex;
+    flex-direction: column;
+    width: 503px;
+    gap: 20px;
+}
+.avt
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.nameNStars
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
