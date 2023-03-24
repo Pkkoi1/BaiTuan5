@@ -37,6 +37,7 @@
 
 .button:hover {
     color: cyan;
+    cursor: pointer;
     /* border-bottom: 3px cyan solid; */
 }
 .button:hover::after{
@@ -81,6 +82,7 @@
 }
 
 .ProductButton:hover {
+    cursor: pointer;
     color: black;
 }
 
@@ -125,13 +127,13 @@
 .products {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
 .product2 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .decript {
@@ -282,4 +284,56 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.anotherproduct
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 98px 0;
+    border-bottom: 1px #f3f3f4 solid;
+    width: fit-content;
+}
+.relatedProducts
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.product3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px #f5f5f5 solid;
+}
+.proTitle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 18px 15px 18px;
+}
+.prodetail p
+{
+    margin: 0px 18px 13px 18px;
+    font-size: 100%;
+    color: #00bdd6;
+}
+.proTitle h2
+{
+    margin: 0px;
+}
+.sold
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 18px 10px 18px;
+}
+.sold p{
+    margin: 0;
+    color: #9095a0;
+    font-size: 80%;
 }
